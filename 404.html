@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | BioMiner Indexd</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+        
+        .container {
+            text-align: center;
+            background: white;
+            padding: 3rem 2rem;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 90%;
+        }
+        
+        .error-code {
+            font-size: 6rem;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 1rem;
+            line-height: 1;
+        }
+        
+        .error-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        
+        .error-message {
+            font-size: 1rem;
+            color: #7f8c8d;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 500;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-secondary {
+            background: #f8f9fa;
+            color: #495057;
+            border: 1px solid #dee2e6;
+        }
+        
+        .btn-secondary:hover {
+            background: #e9ecef;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .icon {
+            width: 16px;
+            height: 16px;
+        }
+        
+        @media (max-width: 480px) {
+            .error-code {
+                font-size: 4rem;
+            }
+            
+            .button-group {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+        <p class="error-message">
+            Sorry, the page you're looking for doesn't exist or has been moved. 
+            Let's get you back to exploring datasets with BioMiner Indexd.
+        </p>
+        <div class="button-group">
+            <a href="/" class="btn btn-primary">
+                <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/>
+                </svg>
+                Back to Home
+            </a>
+            <a href="https://indexd.org/#/datasets" class="btn btn-secondary">
+                <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                </svg>
+                Browse Datasets
+            </a>
+        </div>
+    </div>
+    
+    <script>
+        // Auto-redirect to home page after 10 seconds if no user interaction
+        let redirectTimer = setTimeout(() => {
+            window.location.href = '/';
+        }, 10000);
+        
+        // Cancel auto-redirect if user interacts with the page
+        document.addEventListener('click', () => {
+            clearTimeout(redirectTimer);
+        });
+        
+        document.addEventListener('keydown', () => {
+            clearTimeout(redirectTimer);
+        });
+        
+        // Handle keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                const primaryBtn = document.querySelector('.btn-primary');
+                if (primaryBtn) {
+                    primaryBtn.click();
+                }
+            }
+        });
+    </script>
+</body>
+</html>
