@@ -1,0 +1,191 @@
+[
+    {
+        "lng": -79.3871,
+        "lat": 43.6629,
+        "name": "University of Toronto",
+        "site_name": "University of Toronto",
+        "site_description": "The University of Toronto is a public research university in Toronto, Ontario, Canada. Founded in 1827, it is one of Canada’s leading universities and is known for its research output and global reputation.",
+        "site_link": "https: //www.utoronto.ca",
+        "country": "Canada"
+    },
+    {
+        "lng": -71.0921,
+        "lat": 42.3601,
+        "name": "Massachusetts Institute of Technology",
+        "site_name": "MIT | Massachusetts Institute of Technology",
+        "site_description": "MIT is a private research university in Cambridge, Massachusetts, USA. Founded in 1861, MIT is renowned for its programs in science, engineering, and technology and high-impact research.",
+        "site_link": "https: //www.mit.edu",
+        "country": "United States"
+    },
+    {
+        "lng": -70.6506,
+        "lat": -33.4569,
+        "name": "Universidad de Chile",
+        "site_name": "Universidad de Chile",
+        "site_description": "Universidad de Chile is a public university in Santiago, Chile. Founded in 1842, it is among the oldest and most prestigious universities in Chile, with strengths in humanities, sciences, and public policy.",
+        "site_link": "https: //www.uchile.cl",
+        "country": "Chile"
+    },
+    {
+        "lng": -1.255,
+        "lat": 51.752,
+        "name": "University of Oxford",
+        "site_name": "University of Oxford",
+        "site_description": "The University of Oxford is a collegiate research university in Oxford, England. It is the oldest university in the English-speaking world, with origins dating back to the 11th century.",
+        "site_link": "https: //www.ox.ac.uk",
+        "country": "United Kingdom"
+    },
+    {
+        "lng": 17.6389,
+        "lat": 59.8586,
+        "name": "Uppsala University",
+        "site_name": "Uppsala University",
+        "site_description": "Uppsala University is a public research university in Uppsala, Sweden. Established in 1477, it is the oldest university in Sweden and a leading institution in the Nordic region.",
+        "site_link": "https: //www.uu.se",
+        "country": "Sweden"
+    },
+    {
+        "lng": 24.9384,
+        "lat": 60.1699,
+        "name": "University of Helsinki",
+        "site_name": "University of Helsinki",
+        "site_description": "The University of Helsinki is a public university in Helsinki, Finland. Founded in 1640, it is Finland’s oldest and largest academic institution, with broad strengths in research and education.",
+        "site_link": "https: //www.helsinki.fi",
+        "country": "Finland"
+    },
+    {
+        "lng": 11.5755,
+        "lat": 48.1371,
+        "name": "Technical University of Munich",
+        "site_name": "TUM | Technical University of Munich",
+        "site_description": "The Technical University of Munich is a research university in Munich, Germany. Founded in 1868, TUM is known for its engineering, natural sciences, life sciences, and technology programs.",
+        "site_link": "https: //www.tum.de",
+        "country": "Germany"
+    },
+    {
+        "lng": 37.53,
+        "lat": 55.7033,
+        "name": "Lomonosov Moscow State University",
+        "site_name": "Moscow State University",
+        "site_description": "Lomonosov Moscow State University is a public research university in Moscow, Russia. Founded in 1755, it is Russia’s oldest and one of its most prestigious institutions, known for its comprehensive strengths across sciences and humanities.",
+        "site_link": "https: //www.msu.ru",
+        "country": "Russia"
+    },
+    {
+        "lng": 72.915,
+        "lat": 19.1334,
+        "name": "Indian Institute of Technology Bombay",
+        "site_name": "IIT Bombay",
+        "site_description": "IIT Bombay is a public technical and research university in Mumbai, India. Founded in 1958, it is one of India’s premier engineering institutions and known for high-impact research and innovation.",
+        "site_link": "https: //www.iitb.ac.in",
+        "country": "India"
+    },
+    {
+        "lng": 116.3269,
+        "lat": 39.9928,
+        "name": "Tsinghua University",
+        "site_name": "Tsinghua University",
+        "site_description": "Tsinghua University is a research university in Beijing, China. Established in 1911, it is one of China’s top institutions in science, engineering, and multidisciplinary research.",
+        "site_link": "https: //www.tsinghua.edu.cn",
+        "country": "China"
+    },
+    {
+        "lng": 139.761,
+        "lat": 35.7126,
+        "name": "The University of Tokyo",
+        "site_name": "The University of Tokyo",
+        "site_description": "The University of Tokyo is a public research university in Tokyo, Japan. Founded in 1877, it is considered Japan’s top university and known for its research output, elite graduates, and broad academic influence.",
+        "site_link": "https: //www.u-tokyo.ac.jp",
+        "country": "Japan"
+    },
+    {
+        "lng": 101.6457,
+        "lat": 3.1201,
+        "name": "University of Malaya",
+        "site_name": "University of Malaya",
+        "site_description": "The University of Malaya is a public research university located in Kuala Lumpur, Malaysia. Founded in 1905, it is the oldest and among the highest-ranking universities in Malaysia.",
+        "site_link": "https: //www.um.edu.my",
+        "country": "Malaysia"
+    },
+    {
+        "lng": 103.7744,
+        "lat": 1.2966,
+        "name": "National University of Singapore",
+        "site_name": "NUS | National University of Singapore",
+        "site_description": "The National University of Singapore is a public research university in Singapore. Founded in 1905 (as a medical college), it is Singapore’s flagship university and known globally for research and teaching excellence.",
+        "site_link": "https: //www.nus.edu.sg",
+        "country": "Singapore"
+    },
+    {
+        "lng": 121.0733,
+        "lat": 14.652,
+        "name": "University of the Philippines Diliman",
+        "site_name": "UP Diliman | University of the Philippines",
+        "site_description": "The University of the Philippines Diliman is the flagship campus of the University of the Philippines system, located in Quezon City. Founded in 1908, it is one of the premier institutions in the Philippines for higher education and research.",
+        "site_link": "https: //www.up.edu.ph",
+        "country": "Philippines"
+    },
+    {
+        "lng": 149.084,
+        "lat": -35.2777,
+        "name": "Australian National University",
+        "site_name": "ANU | Australian National University",
+        "site_description": "The Australian National University is a public research university located in Canberra, Australia. Established in 1946, it is widely regarded as one of Australia’s top universities, with strong research in science, humanities, and public policy.",
+        "site_link": "https: //www.anu.edu.au",
+        "country": "Australia"
+    },
+    {
+        "lng": -0.1855,
+        "lat": 5.6505,
+        "name": "University of Ghana",
+        "site_name": "University of Ghana",
+        "site_description": "The University of Ghana is a public university located in Accra, Ghana. Founded as the University College of the Gold Coast in 1948 and granted full university status in 1961, it is the oldest and one of the most prestigious universities in Ghana.",
+        "site_link": "https: //www.ug.edu.gh",
+        "country": "Ghana"
+    },
+    {
+        "lng": 38.75917,
+        "lat": 9.04667,
+        "name": "Addis Ababa University",
+        "site_name": "Addis Ababa University",
+        "site_description": "Addis Ababa University (AAU) is a national public university in Addis Ababa, Ethiopia. Established in 1950, it is the oldest university in Ethiopia and has multiple campuses across the city.",
+        "site_link": "https: //www.aau.edu.et",
+        "country": "Ethiopia"
+    },
+    {
+        "lng": -84.0849,
+        "lat": 9.935,
+        "name": "University of Costa Rica",
+        "site_name": "University of Costa Rica",
+        "site_description": "University of Costa Rica (Universidad de Costa Rica, UCR) is a public university in Costa Rica. Established in 1940, it is the oldest institution of higher education in the country and a leading center for research and public engagement.",
+        "site_link": "https: //www.ucr.ac.cr",
+        "country": "Costa Rica"
+    },
+    {
+        "lng": 127.026,
+        "lat": 37.5868,
+        "name": "Korea University",
+        "site_name": "Korea University",
+        "site_description": "Korea University is a private research university in Seoul, South Korea. Founded in 1905, it is one of the oldest and most prestigious universities in the country.",
+        "site_link": "https: //www.korea.ac.kr",
+        "country": "South Korea"
+    },
+    {
+        "lng": 76.9235,
+        "lat": 43.2389,
+        "name": "Al-Farabi Kazakh National University",
+        "site_name": "Al-Farabi Kazakh National University",
+        "site_description": "Al-Farabi Kazakh National University (KazNU) is a national research university in Almaty, Kazakhstan. It is one of the oldest and most prestigious universities in Kazakhstan, with strong programs in sciences, humanities, and international collaboration.",
+        "site_link": "https: //www.farabi.university",
+        "country": "Kazakhstan"
+    },
+    {
+        "lng": 125.7677,
+        "lat": 39.0548,
+        "name": "Kim Il-sung University",
+        "site_name": "Kim Il-sung University",
+        "site_description": "Kim Il-sung University is one of the most prominent universities in North Korea, located in Pyongyang. It was founded in 1946 and is named after the country’s founding leader.",
+        "site_link": "https: //www.kisue.edu.kp",
+        "country": "North Korea"
+    }
+]

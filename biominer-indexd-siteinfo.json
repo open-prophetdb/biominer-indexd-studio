@@ -1,0 +1,29 @@
+[
+    {
+        "lng": -71.1233,
+        "lat": 42.3601,
+        "name": "Harvard University",
+        "site_name": "Surgery Department | Harvard University",
+        "site_description": "Harvard University is a private research university in Cambridge, Massachusetts, United States. Founded in 1636, it is the oldest institution of higher education in the United States and one of the most prestigious universities in the world.",
+        "site_link": "https://www.harvard.edu",
+        "country": "United States"
+    },
+    {
+        "lng": 121.5036,
+        "lat": 31.2974,
+        "name": "Fudan University",
+        "site_name": "PGx | Fudan University",
+        "site_description": "PGx is a research group at Fudan University, Shanghai, China. It is dedicated to the research of personalized medicine.",
+        "site_link": "https://www.fudan.edu.cn/pgx",
+        "country": "China"
+    },
+    {
+        "lng": 8.7066,
+        "lat": 49.4107,
+        "name": "Heidelberg University",
+        "site_name": "Institute of Neuroscience | Heidelberg University",
+        "site_description": "Heidelberg University is a public research university in Heidelberg, Baden-Württemberg, Germany. Founded in 1386 on instruction of Pope Urban VI, Heidelberg is Germany's oldest university and one of the world's oldest surviving universities; it was the third university established in the Holy Roman Empire after Prague (1347) and Vienna (1365). Since 1899, it has been a coeducational institution.",
+        "site_link": "https://www.heidelberg.edu",
+        "country": "Germany"
+    }
+]
