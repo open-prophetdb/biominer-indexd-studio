@@ -1,3 +1,1 @@
 "use strict";(self.webpackChunkbiominer_indexd_studio=self.webpackChunkbiominer_indexd_studio||[]).push([[6390],{96390:function(i,n,t){t.r(n),t.d(n,{default:function(){return o}});var s=t(67294),u=t(94272),e=t(85893);function o(){var d=(0,u.useOutletContext)();return(0,e.jsx)(u.Outlet,{context:d})}}}]);
-!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="ba89e583-7565-5ba4-a78f-9ae9e63605e9")}catch(e){}}();
-//# debugId=ba89e583-7565-5ba4-a78f-9ae9e63605e9

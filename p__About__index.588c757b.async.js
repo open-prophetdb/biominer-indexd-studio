@@ -78,5 +78,3 @@ OPTIONS:
     -u, --username <username>          Username for the biominer-indexd api server [default: anonymous]
 \`\`\`
 `),m=function(){var o=(0,d.useIntl)();return(0,n.jsxs)(t.Z,{children:[(0,n.jsx)(a.Z,{message:o.formatMessage({id:"pages.welcome.alertMessage",defaultMessage:"Faster download tool have been released."}),type:"success",showIcon:!0,banner:!0,style:{margin:-12,marginBottom:24}}),(0,n.jsx)(s.Z.Text,{style:{fontSize:"16px"},children:(0,n.jsx)(u.D,{remarkPlugins:[c.Z],children:h})})]})},f=m}}]);
-!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="9e652187-43ee-5268-bc75-3cde422a65b9")}catch(e){}}();
-//# debugId=9e652187-43ee-5268-bc75-3cde422a65b9
